@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffcc; /* Yellow background color */
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#yesBtn {
+    background-color: #4caf50; /* Green for Yes button */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#noBtn {
+    background-color: #ff5555; /* Red for No button */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#valentinePhoto {
+    max-width: 60%;
+}
+
+#questionText {
+    font-size: 24px;
+}
+
+.responseText {
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+/* Add this style to hide the choose wisely photo initially */
+#chooseWiselyPhoto {
+    max-width: 50%; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 8px;
+    margin: 20px auto; /* Center the photo */
+    display: none;
+}

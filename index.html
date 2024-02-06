@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="startContainer">
+        <img src="Start.JPG" alt="Start Photo">
+        <h1 id="questionText">Will You Be My Valentine, Ajsa?</h1>
+        <button id="yesBtn" onclick="showYesPage()">Yes</button>
+        <button id="noBtn" onclick="showNoPage()">No</button>
+    </div>
+    <div id="yesPage" class="hidden">
+        <img src="Stop.JPG" alt="Valentine Photo" id="valentinePhoto">
+        <p class="responseText">Thank you for saying yes! Can't wait to celebrate together!</p>
+    </div>
+    <div id="noPage" class="hidden">
+        <p class="responseText" id="chooseWiselyMessage">Choose wisely...</p>
+        <img src="Halo.JPG" alt="Choose Wisely Photo" id="chooseWiselyPhoto" class="hidden">
+        <button id="backToYesNo" onclick="backToYesNo()">Back to Yes and No</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
